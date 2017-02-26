@@ -24,3 +24,12 @@ services:
      environment:
        WORDPRESS_DB_HOST: db:3306
        WORDPRESS_DB_PASSWORD: wordpress
+
+  phpadmin:
+    depends_on:
+       - db
+    image: harbor-bj.devopshub.cn/library/phpmyadmin:latest
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: db
