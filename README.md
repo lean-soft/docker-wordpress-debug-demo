@@ -1,6 +1,6 @@
-# Wordpress Debugging with Container Desktop
+# 使用容器桌面工具开发调试WordPress应用
 
-# 第一步：克隆项目到客户端本地
+# 第一步：克隆WordPress代码到客户端本地
 
 # 第二步：导入WordPress项目
 
