@@ -21,7 +21,8 @@ git clone https://github.com/lean-soft/docker-wordpress-debug-demo.git
 
 ## 第6步：设置应用程序断点，启动DEBUG
 选择需要调试的php源文件，设置断点，并启动Xdebug调试工具  </br>
-注意：VSCODE客户端需要安装Xdebug插件，如果没有安装请参考链接：https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug 
+注意：VSCODE客户端需要安装Xdebug插件，如果没有安装请参考以下链接： </br>
+https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug 
 ![alt text](./images/readme-breakpoint.png)
 
 ## 第7步：打开wordpress站点，并导航至断点对应的页面进行调试
