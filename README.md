@@ -9,10 +9,22 @@ git clone https://github.com/lean-soft/docker-wordpress-debug-demo.git
 
 ## 第3步：导入WordPress项目
 
+![alt text](./images/readme-import-project.png)
+
 ## 第4步：运行WordPress开发调试环境
+
+![alt text](./images/readme-run.png)
 
 ## 第5步：打开WordPress源代码
 
+![alt text](./images/readme-dev.png)
+
 ## 第6步：设置应用程序断点，启动DEBUG
 
+![alt text](./images/readme-breakpoint.png)
+
 ## 第7步：在浏览器中打开wordpress站点，并导航至断点对应的页面进行调试
+
+![alt text](./images/readme-open-website.png)
+
+![alt text](./images/readme-debugging.png)
