@@ -16,7 +16,7 @@ git clone https://github.com/lean-soft/docker-wordpress-debug-demo.git
 ![alt text](./images/readme-run.png)
 
 ## 第5步：打开WordPress源代码
-选择Wordpress应用对应的container，并点击DEV按钮（容器桌面客户端会自动帮你使用VS Code客户端打开Wordpress源代码）
+选择Wordpress应用层对应的容器，并点击DEV按钮（容器桌面客户端会自动帮你使用VSCODE客户端打开Wordpress源代码）
 ![alt text](./images/readme-dev.png)
 
 ## 第6步：设置应用程序断点，启动DEBUG
@@ -24,7 +24,8 @@ git clone https://github.com/lean-soft/docker-wordpress-debug-demo.git
 ![alt text](./images/readme-breakpoint.png)
 
 ## 第7步：打开wordpress站点，并导航至断点对应的页面进行调试
-在容器桌面客户端打开站点，并导航至设置断点的相应php页面，VSCODE将直接捕获断点，并显示对应变量
+在容器桌面客户端打开站点，并导航至设置断点的相应php页面
 ![alt text](./images/readme-open-website.png)
 
+VSCODE捕获到断点，并显示对应变量，开发人员可以进行单步调试
 ![alt text](./images/readme-debugging.png)
