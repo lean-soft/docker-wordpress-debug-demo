@@ -8,23 +8,23 @@ git clone https://github.com/lean-soft/docker-wordpress-debug-demo.git
 例如：xdebug.remote_host=192.168.1.101
 
 ## 第3步：导入WordPress项目
-
+打开容器桌面客户端，点击 Development -> Import，选择项目文件夹，点击打开 </br>
 ![alt text](./images/readme-import-project.png)
 
 ## 第4步：运行WordPress开发调试环境
-
+成功导入调试环境后，点击”Run&Debug“按钮 运行Wordpress开发调试环境 </br>
 ![alt text](./images/readme-run.png)
 
 ## 第5步：打开WordPress源代码
-
+选择Wordpress应用对应的container，并点击DEV按钮（容器桌面客户端会自动帮你使用VS Code客户端打开Wordpress源代码）
 ![alt text](./images/readme-dev.png)
 
 ## 第6步：设置应用程序断点，启动DEBUG
-
+选择需要调试的php源文件，设置断点，并启动Xdebug调试工具
 ![alt text](./images/readme-breakpoint.png)
 
-## 第7步：在浏览器中打开wordpress站点，并导航至断点对应的页面进行调试
-
+## 第7步：打开wordpress站点，并导航至断点对应的页面进行调试
+在容器桌面客户端打开站点，并导航至设置断点的相应php页面，VSCODE将直接捕获断点，并显示对应变量
 ![alt text](./images/readme-open-website.png)
 
 ![alt text](./images/readme-debugging.png)
