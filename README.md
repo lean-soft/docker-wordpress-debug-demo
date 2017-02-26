@@ -4,7 +4,7 @@
 git clone https://github.com/lean-soft/docker-wordpress-debug-demo.git
 
 ## 第2步：配置xdebug监听IP以及端口
-修改项目根目录下的xdebug.ini文件，修改xdebug.remote_host对应的IP为客户端本机IP地址
+更新项目根目录下的xdebug.ini文件，修改xdebug.remote_host对应的IP为客户端本机IP地址 </br>
 例如：xdebug.remote_host=192.168.1.101
 
 ## 第3步：导入WordPress项目
