@@ -1,6 +1,7 @@
 # 使用容器桌面工具开发调试WordPress应用
 
 ## 第1步：克隆WordPress代码到客户端本地
+git clone https://github.com/lean-soft/docker-wordpress-debug-demo.git
 
 ## 第2步：配置xdebug监听IP以及端口
 
